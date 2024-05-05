@@ -7,7 +7,7 @@ Dero)
 	pushd $Cur_Dir/Dero
 	chmod u+x astrominer    # cấp quyền cho file chạy
 	chmod u+x rpc_mining.sh # cấp quyền cho file chạy
-	sh rpc_mining.sh;;
+	sh rpc_mining.sh
 	popd;;
 *)
     echo "Please choose the correct coin name" ;;
