@@ -1,4 +1,4 @@
-export Cur_Dir=/home/userland/Coin_mining
+export Cur_Dir=/home/userland/Coin_Mining
 #export Cur_Dir=/d/Git_Repo/Coin_Mining
 export Coin_Name=Dero
 case $Coin_Name in
