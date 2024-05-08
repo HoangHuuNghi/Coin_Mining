@@ -3,6 +3,7 @@ export Cur_Dir=/home/userland/Coin_Mining
 export Coin_Name=Dero
 case $Coin_Name in
 Dero)
+        git reset --hard
 	git pull
 	cd $Cur_Dir/Dero
 	chmod u+x astrominer    # cấp quyền cho file chạy
